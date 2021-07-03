@@ -1,0 +1,1390 @@
+Started GET "/" for ::1 at 2021-07-03 15:16:08 +0300
+  [1m[35m (122.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 3 pending migrations:
+
+20210119060444_create_labels.rb
+20210119060910_create_labellings.rb
+20210119083937_add_user_ref_to_labels.rb
+
+
+):
+  
+activerecord (6.1.3.2) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.3.2) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.3.2) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.3.2) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-07-03 17:47:12 +0300
+Started GET "/" for ::1 at 2021-07-03 17:47:12 +0300
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 3 pending migrations:
+
+20210119060444_create_labels.rb
+20210119060910_create_labellings.rb
+20210119083937_add_user_ref_to_labels.rb
+
+
+):
+  
+activerecord (6.1.3.2) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.3.2) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.3.2) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.3.2) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (47.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 3 pending migrations:
+
+20210119060444_create_labels.rb
+20210119060910_create_labellings.rb
+20210119083937_add_user_ref_to_labels.rb
+
+
+):
+  
+activerecord (6.1.3.2) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.3.2) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.3.2) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.3.2) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-07-03 17:48:43 +0300
+  [1m[35m (82.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+You have 3 pending migrations:
+
+20210119060444_create_labels.rb
+20210119060910_create_labellings.rb
+20210119083937_add_user_ref_to_labels.rb
+
+
+):
+  
+activerecord (6.1.3.2) lib/active_record/migration.rb:625:in `check_pending!'
+activerecord (6.1.3.2) lib/active_record/migration.rb:590:in `block (2 levels) in call'
+activesupport (6.1.3.2) lib/active_support/evented_file_update_checker.rb:59:in `execute'
+activerecord (6.1.3.2) lib/active_record/migration.rb:595:in `block in call'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `synchronize'
+activerecord (6.1.3.2) lib/active_record/migration.rb:587:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.1.3.2) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:18:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (6.1.3.2) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (6.1.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/static.rb:24:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:98:in `call'
+railties (6.1.3.2) lib/rails/engine.rb:539:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (42.6ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (198.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "everyleaf_development"[0m
+  [1m[35m (1538.3ms)[0m  [1m[35mDROP DATABASE IF EXISTS "everyleaf_test"[0m
+  [1m[35m (20992.7ms)[0m  [1m[35mCREATE DATABASE "everyleaf_development" ENCODING = 'unicode'[0m
+  [1m[35m (21300.3ms)[0m  [1m[35mCREATE DATABASE "everyleaf_test" ENCODING = 'unicode'[0m
+  [1m[35m (34.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(7095887480198095845)[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateTasks (20201216044900)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (290.9ms)[0m  [1m[35mCREATE TABLE "tasks" ("id" bigserial primary key, "title" character varying, "content" text, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201216044900"]]
+  [1m[36mTRANSACTION (41.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to ChangeColumnNullTasks (20201216045021)
+  [1m[36mTRANSACTION (40.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.2ms)[0m  [1m[35mALTER TABLE "tasks" ALTER COLUMN "title" TYPE character varying, ALTER COLUMN "title" SET NOT NULL[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20201216045021"]]
+  [1m[36mTRANSACTION (40.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddDeadlineToTasks (20210108074827)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "tasks" ADD "deadline" date[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210108074827"]]
+  [1m[36mTRANSACTION (40.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddStatusToTasks (20210108085012)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "tasks" ADD "status" character varying[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210108085012"]]
+  [1m[36mTRANSACTION (41.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddPriorityToTasks (20210112021521)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "tasks" ADD "priority" character varying[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210112021521"]]
+  [1m[36mTRANSACTION (81.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddSearchIndexToTask (20210113014132)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "tasks" ADD "search" character varying[0m
+  [1m[35m (42.0ms)[0m  [1m[35mCREATE INDEX "index_tasks_on_search" ON "tasks" ("search")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210113014132"]]
+  [1m[36mTRANSACTION (41.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateUsers (20210114015815)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (88.1ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password_digest" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210114015815"]]
+  [1m[36mTRANSACTION (40.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddIndexToUsersEmail (20210114020047)
+  [1m[36mTRANSACTION (79.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210114020047"]]
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserRefToTasks (20210114032702)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "tasks" ADD "user_id" bigint[0m
+  [1m[35m (41.2ms)[0m  [1m[35mCREATE INDEX "index_tasks_on_user_id" ON "tasks" ("user_id")[0m
+  [1m[35m (613.7ms)[0m  [1m[35mALTER TABLE "tasks" ADD CONSTRAINT "fk_rails_4d2a9e4d7e"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210114032702"]]
+  [1m[36mTRANSACTION (40.9ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddAdminToUsers (20210114052237)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.8ms)[0m  [1m[35mALTER TABLE "users" ADD "admin" boolean DEFAULT FALSE[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210114052237"]]
+  [1m[36mTRANSACTION (74.0ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLabels (20210119060444)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (156.8ms)[0m  [1m[35mCREATE TABLE "labels" ("id" bigserial primary key, "name" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210119060444"]]
+  [1m[36mTRANSACTION (19.1ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLabellings (20210119060910)
+  [1m[36mTRANSACTION (41.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (44.8ms)[0m  [1m[35mCREATE TABLE "labellings" ("id" bigserial primary key, "task_id" bigint, "label_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_6605447ae9"
+FOREIGN KEY ("task_id")
+  REFERENCES "tasks" ("id")
+, CONSTRAINT "fk_rails_7d68883747"
+FOREIGN KEY ("label_id")
+  REFERENCES "labels" ("id")
+)[0m
+  [1m[35m (41.3ms)[0m  [1m[35mCREATE INDEX "index_labellings_on_task_id" ON "labellings" ("task_id")[0m
+  [1m[35m (42.7ms)[0m  [1m[35mCREATE INDEX "index_labellings_on_label_id" ON "labellings" ("label_id")[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210119060910"]]
+  [1m[36mTRANSACTION (118.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to AddUserRefToLabels (20210119083937)
+  [1m[36mTRANSACTION (70.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.4ms)[0m  [1m[35mALTER TABLE "labels" ADD "user_id" bigint[0m
+  [1m[35m (78.7ms)[0m  [1m[35mCREATE INDEX "index_labels_on_user_id" ON "labels" ("user_id")[0m
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "labels" ADD CONSTRAINT "fk_rails_9ea980b469"
+FOREIGN KEY ("user_id")
+  REFERENCES "users" ("id")
+[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210119083937"]]
+  [1m[36mTRANSACTION (75.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (41.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-07-03 17:51:09.513514"], ["updated_at", "2021-07-03 17:51:09.513514"]]
+  [1m[36mTRANSACTION (40.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(7095887480198095845)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2021-07-03 17:51:38 +0300
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (12.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_register.html.erb (Duration: 8310.7ms | Allocations: 1333251)
+  Rendered users/new.html.erb within layouts/application (Duration: 8373.5ms | Allocations: 1333921)
+  Rendered layout layouts/application.html.erb (Duration: 8956.5ms | Allocations: 1609185)
+Completed 500 Internal Server Error in 9366ms (ActiveRecord: 67.4ms | Allocations: 1620604)
+
+
+  
+ActionView::Template::Error (couldn't find file 'bootstrap/dist/css/bootstrap.min' with type 'text/css'
+Checked in these paths: 
+  /Users/harakenken22/Desktop/Everyleaf 5/app/assets/config
+  /Users/harakenken22/Desktop/Everyleaf 5/app/assets/images
+  /Users/harakenken22/Desktop/Everyleaf 5/app/assets/javascripts
+  /Users/harakenken22/Desktop/Everyleaf 5/app/assets/stylesheets
+  /Users/harakenken22/.rvm/gems/ruby-3.0.0/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /Users/harakenken22/.rvm/gems/ruby-3.0.0/gems/actioncable-6.1.3.2/app/assets/javascripts
+  /Users/harakenken22/.rvm/gems/ruby-3.0.0/gems/activestorage-6.1.3.2/app/assets/javascripts
+  /Users/harakenken22/.rvm/gems/ruby-3.0.0/gems/actionview-6.1.3.2/lib/assets/compiled
+  /Users/harakenken22/.rvm/gems/ruby-3.0.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /Users/harakenken22/Desktop/Everyleaf 5/node_modules):
+     6:     <%= csp_meta_tag %>
+     7:     <meta name="viewport" content="width=device-width">
+     8:     <%= stylesheet_link_tag "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" %>
+     9:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/application.css:13
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2021-07-03 17:54:41 +0300
+  [1m[35m (3.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (26.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_register.html.erb (Duration: 21317.3ms | Allocations: 327857)
+  Rendered users/new.html.erb within layouts/application (Duration: 21322.5ms | Allocations: 328527)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 24118.6ms | Allocations: 706055)
+Completed 200 OK in 24548ms (Views: 24128.1ms | ActiveRecord: 238.4ms | Allocations: 717121)
+
+
+Started GET "/sessions/new" for ::1 at 2021-07-03 17:55:23 +0300
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 50.6ms | Allocations: 1112)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 131.3ms | Allocations: 30780)
+Completed 200 OK in 138ms (Views: 134.2ms | ActiveRecord: 0.3ms | Allocations: 33025)
+
+
+Started POST "/sessions" for ::1 at 2021-07-03 17:55:31 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FiNiSSYIGz2GwmR4s/ZFZagACQfCU49SWxlnP2hTC/DXsiSm2ASlx5ag31ueBy3Fp/g0EUWzUVM9vhzNhQl/eg==", "session"=>{"email"=>"esther.mugo@africascan.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "esther.mugo@africascan.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:9:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 9.3ms | Allocations: 328)
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 215.3ms | Allocations: 29964)
+Completed 200 OK in 243ms (Views: 215.2ms | ActiveRecord: 1.7ms | Allocations: 31617)
+
+
+Started GET "/users/new" for ::1 at 2021-07-03 17:55:40 +0300
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/_register.html.erb (Duration: 2.3ms | Allocations: 461)
+  Rendered users/new.html.erb within layouts/application (Duration: 2.7ms | Allocations: 544)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 91.4ms | Allocations: 30137)
+Completed 200 OK in 99ms (Views: 92.9ms | ActiveRecord: 0.5ms | Allocations: 31683)
+
+
+Started POST "/users" for ::1 at 2021-07-03 17:55:51 +0300
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RprtBfe4zhtDWZIzHHclzcck6LYAmUxTQRnrfI/sOXCXC5HD6e84FBOSO5eZbvPkcT89/6SSk/D+hDthC0DNIQ==", "user"=>{"name"=>"Ess", "email"=>"esther.mugo@africascan.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Create User"}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mUser Create (42.0ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ess"], ["email", "esther.mugo@africascan.com"], ["password_digest", "$2a$12$vCYpcWZmlZM6IdTb3Ne.duHIGuhhunKs1O6C/3B8cC.1TRWf7gYim"], ["created_at", "2021-07-03 17:55:51.989184"], ["updated_at", "2021-07-03 17:55:51.989184"]]
+  ↳ app/controllers/users_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (161.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:16:in `create'
+Redirected to http://localhost:3000/users/1
+Completed 302 Found in 899ms (ActiveRecord: 203.3ms | Allocations: 3587)
+
+
+Started GET "/users/1" for ::1 at 2021-07-03 17:55:52 +0300
+Processing by UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:48:in `set_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:25:in `show'
+  Rendering layout layouts/application.html.erb
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (Duration: 43.1ms | Allocations: 198)
+  Rendered layout layouts/application.html.erb (Duration: 141.3ms | Allocations: 29362)
+Completed 200 OK in 157ms (Views: 142.1ms | ActiveRecord: 1.4ms | Allocations: 32024)
+
+
+Started GET "/tasks.1" for ::1 at 2021-07-03 17:55:58 +0300
+Processing by TasksController#index as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (147.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (550.1ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  Rendered tasks/index.html.erb within layouts/application (Duration: 957.1ms | Allocations: 11214)
+  Rendered layout layouts/application.html.erb (Duration: 1062.3ms | Allocations: 40407)
+Completed 200 OK in 1124ms (Views: 369.9ms | ActiveRecord: 701.0ms | Allocations: 48581)
+
+
+Started GET "/tasks/new" for ::1 at 2021-07-03 17:56:07 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/_form.html.erb:41
+  Rendered tasks/_form.html.erb (Duration: 281.5ms | Allocations: 7571)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 307.1ms | Allocations: 7888)
+  Rendered layout layouts/application.html.erb (Duration: 443.3ms | Allocations: 36994)
+Completed 200 OK in 509ms (Views: 438.6ms | ActiveRecord: 8.8ms | Allocations: 42543)
+
+
+Started POST "/tasks" for ::1 at 2021-07-03 17:56:27 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KAB6MmFD/WcTYkl+BSHQI4eYC+o92lqwNW5ATQ57hU9ovj/ZvzHySJ4HDmeS+fefCsgFWs+QPonQMknc2dbrHA==", "task"=>{"title"=>"Swahili", "content"=>"Jambo", "deadline"=>"2021-07-11", "status"=>"Not started", "priority"=>"High", "label_ids"=>["", ""]}, "commit"=>"Create Task"}
+  [1m[36mUser Load (3.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+  [1m[36mTask Create (1.8ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Swahili"], ["content", "Jambo"], ["created_at", "2021-07-03 17:56:27.619844"], ["updated_at", "2021-07-03 17:56:27.619844"], ["deadline", "2021-07-11"], ["status", "Not started"], ["priority", "High"], ["user_id", 1]]
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+  [1m[36mTRANSACTION (41.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+Redirected to http://localhost:3000/tasks/1
+Completed 302 Found in 78ms (ActiveRecord: 46.9ms | Allocations: 3914)
+
+
+Started GET "/tasks/1" for ::1 at 2021-07-03 17:56:27 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84:in `set_task'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mLabel Load (246.5ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 1]]
+  ↳ app/views/tasks/show.html.erb:28
+  Rendered tasks/show.html.erb within layouts/application (Duration: 298.1ms | Allocations: 2066)
+  Rendered layout layouts/application.html.erb (Duration: 1468.1ms | Allocations: 31260)
+Completed 200 OK in 1493ms (Views: 1222.5ms | ActiveRecord: 247.1ms | Allocations: 35115)
+
+
+Started GET "/tasks" for ::1 at 2021-07-03 17:56:31 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 1]]
+  ↳ app/views/tasks/index.html.erb:55
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 3558)
+  Rendered layout layouts/application.html.erb (Duration: 79.8ms | Allocations: 32711)
+Completed 200 OK in 107ms (Views: 79.3ms | ActiveRecord: 2.8ms | Allocations: 34534)
+
+
+Started GET "/letter_opener" for ::1 at 2021-07-03 17:56:57 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/letter_opener"):
+  
+Started GET "/labels" for ::1 at 2021-07-03 17:56:59 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (2.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 51.3ms | Allocations: 819)
+  Rendered layout layouts/application.html.erb (Duration: 952.3ms | Allocations: 30024)
+Completed 200 OK in 969ms (Views: 955.7ms | ActiveRecord: 2.5ms | Allocations: 32213)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:57:04 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 10.9ms | Allocations: 849)
+  Rendered labels/new.html.erb within layouts/application (Duration: 14.5ms | Allocations: 1159)
+  Rendered layout layouts/application.html.erb (Duration: 92.2ms | Allocations: 30262)
+Completed 200 OK in 118ms (Views: 94.0ms | ActiveRecord: 0.6ms | Allocations: 33718)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:57:16 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5VEBgrjUETX8TclojyWX+81TAgxn7UW9JjqeWVM2j73MaDODdBlYoAcqSt1T50b3h5mcgvGNmJiYEo2FXU6TqQ==", "label"=>{"name"=>"Label 1"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (1.2ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 1"], ["created_at", "2021-07-03 17:57:16.060256"], ["updated_at", "2021-07-03 17:57:16.060256"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (83.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/1
+Completed 302 Found in 109ms (ActiveRecord: 85.6ms | Allocations: 5222)
+
+
+Started GET "/labels/1" for ::1 at 2021-07-03 17:57:16 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (0.5ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 43.6ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 150.3ms | Allocations: 29400)
+Completed 200 OK in 164ms (Views: 151.0ms | ActiveRecord: 0.9ms | Allocations: 32474)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:57:19 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (7.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.5ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 656)
+  Rendered layout layouts/application.html.erb (Duration: 75.7ms | Allocations: 29809)
+Completed 200 OK in 92ms (Views: 76.2ms | ActiveRecord: 8.2ms | Allocations: 31279)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:57:22 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 1.8ms | Allocations: 445)
+  Rendered labels/new.html.erb within layouts/application (Duration: 2.3ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 78.3ms | Allocations: 29628)
+Completed 200 OK in 91ms (Views: 79.5ms | ActiveRecord: 1.7ms | Allocations: 31065)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:57:31 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"O83yPGjli8se4BOKKIXkjvTNBG/jTcXYLs9c1kGyDeoS9MA9pCjCXuWHkD/0RzWCvgea4XUtGP2Q508KT8oR/g==", "label"=>{"name"=>"Label 2"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (1.3ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 2"], ["created_at", "2021-07-03 17:57:31.750972"], ["updated_at", "2021-07-03 17:57:31.750972"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (7.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/2
+Completed 302 Found in 52ms (ActiveRecord: 10.5ms | Allocations: 3875)
+
+
+Started GET "/labels/2" for ::1 at 2021-07-03 17:57:31 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (7.7ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 303.2ms | Allocations: 29193)
+Completed 200 OK in 329ms (Views: 306.1ms | ActiveRecord: 8.3ms | Allocations: 31421)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:57:33 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (2.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.9ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 754)
+  Rendered layout layouts/application.html.erb (Duration: 97.9ms | Allocations: 29883)
+Completed 200 OK in 128ms (Views: 98.6ms | ActiveRecord: 3.1ms | Allocations: 31350)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:57:34 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 1.1ms | Allocations: 445)
+  Rendered labels/new.html.erb within layouts/application (Duration: 1.4ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 392.2ms | Allocations: 29652)
+Completed 200 OK in 413ms (Views: 393.1ms | ActiveRecord: 0.3ms | Allocations: 31107)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:57:40 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XwYyYcHfnxPR1K6GQDAoaZtSYdYtB63gKPc2qXGyubt2PwBgDRLWhiqzLTOc8vll0Zj/WLtncMWW3yV1f8qlrw==", "label"=>{"name"=>"Label 3"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (0.5ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 3"], ["created_at", "2021-07-03 17:57:40.906997"], ["updated_at", "2021-07-03 17:57:40.906997"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (40.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/3
+Completed 302 Found in 58ms (ActiveRecord: 41.4ms | Allocations: 3874)
+
+
+Started GET "/labels/3" for ::1 at 2021-07-03 17:57:40 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (0.6ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 109.7ms | Allocations: 29250)
+Completed 200 OK in 118ms (Views: 110.3ms | ActiveRecord: 0.8ms | Allocations: 31491)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:57:42 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.9ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 856)
+  Rendered layout layouts/application.html.erb (Duration: 86.0ms | Allocations: 29992)
+Completed 200 OK in 103ms (Views: 86.6ms | ActiveRecord: 1.2ms | Allocations: 31460)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:57:43 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (9.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 3.2ms | Allocations: 445)
+  Rendered labels/new.html.erb within layouts/application (Duration: 3.7ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 171.2ms | Allocations: 29628)
+Completed 200 OK in 192ms (Views: 172.2ms | ActiveRecord: 9.0ms | Allocations: 31069)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:57:50 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QEXpbsxEdeDVjpQ2zVDEtz9Jun7BxfhKiUe/H9C0ohFpfNtvAIk8dS7pF4MRkhW7dYMk8FelJW83b6zD3sy+BQ==", "label"=>{"name"=>"Label 4"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (10.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (0.8ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 4"], ["created_at", "2021-07-03 17:57:50.684150"], ["updated_at", "2021-07-03 17:57:50.684150"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (44.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/4
+Completed 302 Found in 79ms (ActiveRecord: 55.3ms | Allocations: 3864)
+
+
+Started GET "/labels/4" for ::1 at 2021-07-03 17:57:50 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 111.1ms | Allocations: 29196)
+Completed 200 OK in 121ms (Views: 111.7ms | ActiveRecord: 0.9ms | Allocations: 31432)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:57:52 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (1.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 959)
+  Rendered layout layouts/application.html.erb (Duration: 96.4ms | Allocations: 30103)
+Completed 200 OK in 113ms (Views: 96.6ms | ActiveRecord: 3.2ms | Allocations: 31562)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:57:53 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 2.9ms | Allocations: 445)
+  Rendered labels/new.html.erb within layouts/application (Duration: 3.5ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 116.4ms | Allocations: 29695)
+Completed 200 OK in 122ms (Views: 117.2ms | ActiveRecord: 0.3ms | Allocations: 31133)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:57:58 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AP9ZnrVR+yW6sOS8LoKDwlSKp5OzyzOQk9KoO+3eAeUpxmufeZyysEHXZwnyQFLOHkA5HSWr7rUt+rvn46Yd8Q==", "label"=>{"name"=>"Label 5"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (0.9ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 5"], ["created_at", "2021-07-03 17:57:58.772791"], ["updated_at", "2021-07-03 17:57:58.772791"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (81.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/5
+Completed 302 Found in 113ms (ActiveRecord: 85.2ms | Allocations: 3873)
+
+
+Started GET "/labels/5" for ::1 at 2021-07-03 17:57:58 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (0.9ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 118.4ms | Allocations: 29243)
+Completed 200 OK in 129ms (Views: 119.4ms | ActiveRecord: 1.9ms | Allocations: 31482)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:58:00 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (10.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 16.5ms | Allocations: 1061)
+  Rendered layout layouts/application.html.erb (Duration: 98.1ms | Allocations: 30194)
+Completed 200 OK in 104ms (Views: 88.7ms | ActiveRecord: 10.7ms | Allocations: 31662)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:58:01 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 1.3ms | Allocations: 445)
+  Rendered labels/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 80.0ms | Allocations: 29629)
+Completed 200 OK in 96ms (Views: 81.4ms | ActiveRecord: 0.3ms | Allocations: 31064)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:58:10 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"x5J5Vqfsh3fJqOo9kVzXgovUbXgKuWUClYVfpCnzncvuq0tXayHO4jLPaYhNngaOwR7z9pzZuCcrrUx4J4uB3w==", "label"=>{"name"=>"Label 6"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (1.3ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 6"], ["created_at", "2021-07-03 17:58:10.268728"], ["updated_at", "2021-07-03 17:58:10.268728"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (80.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/6
+Completed 302 Found in 111ms (ActiveRecord: 82.4ms | Allocations: 3864)
+
+
+Started GET "/labels/6" for ::1 at 2021-07-03 17:58:10 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (0.5ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 162.4ms | Allocations: 29194)
+Completed 200 OK in 173ms (Views: 163.5ms | ActiveRecord: 0.8ms | Allocations: 31430)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:58:18 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 1163)
+  Rendered layout layouts/application.html.erb (Duration: 101.3ms | Allocations: 30345)
+Completed 200 OK in 111ms (Views: 101.9ms | ActiveRecord: 0.5ms | Allocations: 31826)
+
+
+Started GET "/labels/new" for ::1 at 2021-07-03 17:58:20 +0300
+Processing by LabelsController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/new.html.erb within layouts/application
+  Rendered labels/_form.html.erb (Duration: 2.1ms | Allocations: 445)
+  Rendered labels/new.html.erb within layouts/application (Duration: 2.5ms | Allocations: 525)
+  Rendered layout layouts/application.html.erb (Duration: 87.1ms | Allocations: 29687)
+Completed 200 OK in 95ms (Views: 88.1ms | ActiveRecord: 0.2ms | Allocations: 31129)
+
+
+Started POST "/labels" for ::1 at 2021-07-03 17:58:26 +0300
+Processing by LabelsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"A+kK6rvPf/TWuT3pWS+UK+sjADl2/rx75bicGHQTuywq0DjrdwI2YS3evlyF7UUnoemet+CeYV5bkI/EemunOA==", "label"=>{"name"=>"Label 7"}, "commit"=>"Create Label"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mLabel Create (0.5ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Label 7"], ["created_at", "2021-07-03 17:58:26.670098"], ["updated_at", "2021-07-03 17:58:26.670098"], ["user_id", 1]]
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/labels_controller.rb:40:in `block in create'
+Redirected to http://localhost:3000/labels/7
+Completed 302 Found in 33ms (ActiveRecord: 3.8ms | Allocations: 3873)
+
+
+Started GET "/labels/7" for ::1 at 2021-07-03 17:58:26 +0300
+Processing by LabelsController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1 AND "labels"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/labels_controller.rb:77:in `set_label'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/show.html.erb within layouts/application
+  Rendered labels/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 75)
+  Rendered layout layouts/application.html.erb (Duration: 120.0ms | Allocations: 29229)
+Completed 200 OK in 126ms (Views: 120.8ms | ActiveRecord: 0.5ms | Allocations: 31466)
+
+
+Started GET "/labels" for ::1 at 2021-07-03 17:58:28 +0300
+Processing by LabelsController#index as HTML
+  [1m[36mUser Load (17.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering labels/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/labels/index.html.erb:14
+  Rendered labels/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1265)
+  Rendered layout layouts/application.html.erb (Duration: 88.8ms | Allocations: 30409)
+Completed 200 OK in 111ms (Views: 89.3ms | ActiveRecord: 17.8ms | Allocations: 31877)
+
+
+Started GET "/tasks" for ::1 at 2021-07-03 17:58:42 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (3.8ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (10.3ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 1]]
+  ↳ app/views/tasks/index.html.erb:55
+  Rendered tasks/index.html.erb within layouts/application (Duration: 33.4ms | Allocations: 3602)
+  Rendered layout layouts/application.html.erb (Duration: 766.1ms | Allocations: 32708)
+Completed 200 OK in 775ms (Views: 752.7ms | ActiveRecord: 14.9ms | Allocations: 34417)
+
+
+Started GET "/tasks/new" for ::1 at 2021-07-03 17:58:48 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  [1m[36mLabel Load (6.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/_form.html.erb:41
+  Rendered tasks/_form.html.erb (Duration: 20.9ms | Allocations: 2694)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 21.3ms | Allocations: 2774)
+  Rendered layout layouts/application.html.erb (Duration: 106.6ms | Allocations: 31917)
+Completed 200 OK in 117ms (Views: 101.2ms | ActiveRecord: 6.7ms | Allocations: 33371)
+
+
+Started POST "/tasks" for ::1 at 2021-07-03 17:59:08 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+cy1L22+5TYSjScVP8Nh/2B19abw+OVKIwcyvNgXSt+5cvDEs8zqGZ/oYAyoG0ZD7SX7FgKygXPGWzstD7okjA==", "task"=>{"title"=>"English", "content"=>"Hello World", "deadline"=>"2021-07-04", "status"=>"In progress", "priority"=>"Middle", "label_ids"=>["", "2"]}, "commit"=>"Create Task"}
+  [1m[36mUser Load (4.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mLabel Load (3.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/tasks_controller.rb:43:in `create'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+  [1m[36mTask Create (1.6ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "English"], ["content", "Hello World"], ["created_at", "2021-07-03 17:59:08.869034"], ["updated_at", "2021-07-03 17:59:08.869034"], ["deadline", "2021-07-04"], ["status", "In progress"], ["priority", "Middle"], ["user_id", 1]]
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+  [1m[36mLabelling Create (2.3ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 2], ["label_id", 2], ["created_at", "2021-07-03 17:59:08.877431"], ["updated_at", "2021-07-03 17:59:08.877431"]]
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+  [1m[36mTRANSACTION (73.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:47:in `block in create'
+Redirected to http://localhost:3000/tasks/2
+Completed 302 Found in 143ms (ActiveRecord: 88.1ms | Allocations: 9366)
+
+
+Started GET "/tasks/2" for ::1 at 2021-07-03 17:59:08 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84:in `set_task'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/show.html.erb:28
+  Rendered tasks/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 896)
+  Rendered layout layouts/application.html.erb (Duration: 700.0ms | Allocations: 30076)
+Completed 200 OK in 707ms (Views: 700.2ms | ActiveRecord: 1.1ms | Allocations: 32275)
+
+
+Started GET "/tasks" for ::1 at 2021-07-03 17:59:15 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 1]]
+  ↳ app/views/tasks/index.html.erb:55
+  [1m[36mLabel Load (2.1ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/index.html.erb:55
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(DISTINCT "tasks"."id") FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:74
+  Rendered tasks/index.html.erb within layouts/application (Duration: 527.6ms | Allocations: 7837)
+  Rendered layout layouts/application.html.erb (Duration: 603.4ms | Allocations: 36979)
+Completed 200 OK in 615ms (Views: 600.4ms | ActiveRecord: 4.2ms | Allocations: 38690)
+
+
+Started GET "/tasks/2/edit" for ::1 at 2021-07-03 17:59:33 +0300
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84:in `set_task'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/edit.html.erb within layouts/application
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "labels"."id" FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/_form.html.erb:41
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/_form.html.erb:41
+  Rendered tasks/_form.html.erb (Duration: 10.8ms | Allocations: 3293)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 118.4ms | Allocations: 3524)
+  Rendered layout layouts/application.html.erb (Duration: 1375.0ms | Allocations: 32658)
+Completed 200 OK in 1396ms (Views: 1375.1ms | ActiveRecord: 3.1ms | Allocations: 34951)
+
+
+Started PATCH "/tasks/2" for ::1 at 2021-07-03 18:00:09 +0300
+Processing by TasksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kkvEK/qH9uOhmB0ZtI8fGt9qMK4JOzDuWHKJHTzu6DOa3C0sEVqHEyn9KibiEd7YKRYD1CxoFRtblZDjKXcROQ==", "task"=>{"title"=>"English", "content"=>"Hello World", "deadline"=>"2021-07-04", "status"=>"In progress", "priority"=>"Middle", "label_ids"=>["", "2"]}, "commit"=>"更新する", "id"=>"2"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84:in `set_task'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:61:in `block in update'
+  [1m[36mLabel Load (0.8ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1[0m  [["id", 2]]
+  ↳ app/controllers/tasks_controller.rb:61:in `block in update'
+  [1m[36mLabel Load (2.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/controllers/tasks_controller.rb:61:in `block in update'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:61:in `block in update'
+Redirected to http://localhost:3000/tasks/2
+Completed 302 Found in 41ms (ActiveRecord: 5.5ms | Allocations: 4976)
+
+
+Started GET "/tasks/2" for ::1 at 2021-07-03 18:00:09 +0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 AND "tasks"."id" = $2 LIMIT $3[0m  [["user_id", 1], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:84:in `set_task'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/show.html.erb within layouts/application
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/show.html.erb:28
+  Rendered tasks/show.html.erb within layouts/application (Duration: 5.6ms | Allocations: 897)
+  Rendered layout layouts/application.html.erb (Duration: 1013.1ms | Allocations: 30013)
+Completed 200 OK in 1040ms (Views: 1014.5ms | ActiveRecord: 1.0ms | Allocations: 32204)
+
+
+Started GET "/tasks" for ::1 at 2021-07-03 18:00:15 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (0.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  [1m[36mLabel Load (0.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 1]]
+  ↳ app/views/tasks/index.html.erb:55
+  [1m[36mLabel Load (0.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/index.html.erb:55
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(DISTINCT "tasks"."id") FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:74
+  Rendered tasks/index.html.erb within layouts/application (Duration: 24.7ms | Allocations: 5150)
+  Rendered layout layouts/application.html.erb (Duration: 107.1ms | Allocations: 34316)
+Completed 200 OK in 120ms (Views: 106.3ms | ActiveRecord: 2.4ms | Allocations: 36025)
+
+
+Started GET "/tasks?utf8=%E2%9C%93&q%5Btitle_cont%5D=&q%5Blabels_id_eq_any%5D=2&q%5Bstatus_cont%5D=&q%5Bpriority_cont%5D=&commit=search" for ::1 at 2021-07-03 18:00:33 +0300
+Processing by TasksController#index as HTML
+  Parameters: {"utf8"=>"✓", "q"=>{"title_cont"=>"", "labels_id_eq_any"=>"2", "status_cont"=>"", "priority_cont"=>""}, "commit"=>"search"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (26.8ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (41.5ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" LEFT OUTER JOIN "labellings" ON "labellings"."task_id" = "tasks"."id" LEFT OUTER JOIN "labels" ON "labels"."id" = "labellings"."label_id" WHERE "tasks"."user_id" = $1 AND ("labels"."id" = 2) LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  [1m[36mLabel Load (0.4ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/index.html.erb:55
+  Rendered tasks/index.html.erb within layouts/application (Duration: 91.4ms | Allocations: 4548)
+  Rendered layout layouts/application.html.erb (Duration: 1421.9ms | Allocations: 33721)
+Completed 200 OK in 1433ms (Views: 1355.7ms | ActiveRecord: 69.1ms | Allocations: 35932)
+
+
+  [1m[35m (280.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (247.7ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Go Shopping"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:06:09.912544"], ["updated_at", "2021-07-03 18:06:09.912544"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (158.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Work"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:06:10.328610"], ["updated_at", "2021-07-03 18:06:10.328610"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Meet"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:06:10.336864"], ["updated_at", "2021-07-03 18:06:10.336864"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Code"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:06:10.344050"], ["updated_at", "2021-07-03 18:06:10.344050"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (42.0ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Routine"], ["created_at", "2021-07-03 18:06:10.430204"], ["updated_at", "2021-07-03 18:06:10.430204"], ["user_id", 1]]
+  [1m[36mTRANSACTION (80.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (0.5ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Work Related"], ["created_at", "2021-07-03 18:06:10.561578"], ["updated_at", "2021-07-03 18:06:10.561578"], ["user_id", 1]]
+  [1m[36mTRANSACTION (81.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (0.5ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Health"], ["created_at", "2021-07-03 18:06:10.650998"], ["updated_at", "2021-07-03 18:06:10.650998"], ["user_id", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (0.5ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Social"], ["created_at", "2021-07-03 18:06:10.660251"], ["updated_at", "2021-07-03 18:06:10.660251"], ["user_id", 1]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (3.0ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mLabel Load (1.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabelling Create (3.0ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 4], ["label_id", 1], ["created_at", "2021-07-03 18:06:10.692771"], ["updated_at", "2021-07-03 18:06:10.692771"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mLabelling Create (0.5ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 4], ["label_id", 4], ["created_at", "2021-07-03 18:06:10.706994"], ["updated_at", "2021-07-03 18:06:10.706994"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mLabelling Create (0.5ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 2], ["label_id", 4], ["created_at", "2021-07-03 18:06:10.718403"], ["updated_at", "2021-07-03 18:06:10.718403"]]
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLabelling Create (0.7ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 3], ["label_id", 2], ["created_at", "2021-07-03 18:06:10.729875"], ["updated_at", "2021-07-03 18:06:10.729875"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (4.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (247.7ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Go Shopping"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:07:00.179211"], ["updated_at", "2021-07-03 18:07:00.179211"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (122.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (0.4ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Work"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:07:00.555913"], ["updated_at", "2021-07-03 18:07:00.555913"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (81.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (0.5ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Meet"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:07:00.643528"], ["updated_at", "2021-07-03 18:07:00.643528"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (82.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Create (0.7ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "content", "created_at", "updated_at", "deadline", "status", "priority", "user_id") VALUES ($1, $2, $3, $4, $5, $6, $7, $8) RETURNING "id"[0m  [["title", "Code"], ["content", "Description of Task"], ["created_at", "2021-07-03 18:07:00.733405"], ["updated_at", "2021-07-03 18:07:00.733405"], ["deadline", "2020-11-06"], ["status", "Incompleted"], ["priority", "Medium"], ["user_id", 1]]
+  [1m[36mTRANSACTION (82.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (123.1ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Routine"], ["created_at", "2021-07-03 18:07:00.870726"], ["updated_at", "2021-07-03 18:07:00.870726"], ["user_id", 1]]
+  [1m[36mTRANSACTION (84.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (0.5ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Work Related"], ["created_at", "2021-07-03 18:07:01.085177"], ["updated_at", "2021-07-03 18:07:01.085177"], ["user_id", 1]]
+  [1m[36mTRANSACTION (112.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (0.7ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Health"], ["created_at", "2021-07-03 18:07:01.206933"], ["updated_at", "2021-07-03 18:07:01.206933"], ["user_id", 1]]
+  [1m[36mTRANSACTION (236.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabel Create (0.7ms)[0m  [1m[32mINSERT INTO "labels" ("name", "created_at", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Social"], ["created_at", "2021-07-03 18:07:01.457205"], ["updated_at", "2021-07-03 18:07:01.457205"], ["user_id", 1]]
+  [1m[36mTRANSACTION (106.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (205.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLabel Load (82.8ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mLabelling Create (82.4ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 2], ["label_id", 3], ["created_at", "2021-07-03 18:07:01.878616"], ["updated_at", "2021-07-03 18:07:01.878616"]]
+  [1m[36mTRANSACTION (41.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mLabelling Create (0.4ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 2], ["label_id", 3], ["created_at", "2021-07-03 18:07:02.011703"], ["updated_at", "2021-07-03 18:07:02.011703"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabelling Create (0.5ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 3], ["label_id", 1], ["created_at", "2021-07-03 18:07:02.022655"], ["updated_at", "2021-07-03 18:07:02.022655"]]
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mLabel Load (0.2ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mLabelling Create (0.6ms)[0m  [1m[32mINSERT INTO "labellings" ("task_id", "label_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["task_id", 3], ["label_id", 1], ["created_at", "2021-07-03 18:07:02.033449"], ["updated_at", "2021-07-03 18:07:02.033449"]]
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.6ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "password_digest", "created_at", "updated_at", "admin") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "foo"], ["email", "foo@foo.com"], ["password_digest", "$2a$12$Th/ilg.SmZV3/tijlvtqQePHd2M8fnlDLSACEIvDgR7.rQ0FbrTW2"], ["created_at", "2021-07-03 18:07:02.340092"], ["updated_at", "2021-07-03 18:07:02.340092"], ["admin", true]]
+  [1m[36mTRANSACTION (41.2ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/" for ::1 at 2021-07-03 18:07:25 +0300
+  [1m[35m (150.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#new as HTML
+Started GET "/" for ::1 at 2021-07-03 18:07:29 +0300
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (221.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 560ms (ActiveRecord: 518.7ms | Allocations: 7109)
+
+
+Started GET "/tasks" for ::1 at 2021-07-03 18:07:30 +0300
+Processing by TasksController#index as HTML
+  [1m[36mUser Load (663.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 1224ms (ActiveRecord: 1162.4ms | Allocations: 15243)
+
+
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (256.7ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (333.1ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  [1m[36mLabel Load (246.1ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 1]]
+  ↳ app/views/tasks/index.html.erb:55
+  [1m[36mLabel Load (1.0ms)[0m  [1m[34mSELECT "labels".* FROM "labels" INNER JOIN "labellings" ON "labels"."id" = "labellings"."label_id" WHERE "labellings"."task_id" = $1[0m  [["task_id", 2]]
+  ↳ app/views/tasks/index.html.erb:55
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT COUNT(DISTINCT "tasks"."id") FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/tasks/index.html.erb:74
+  Rendered tasks/index.html.erb within layouts/application (Duration: 2398.0ms | Allocations: 355035)
+  Rendered layout layouts/application.html.erb (Duration: 5081.9ms | Allocations: 680318)
+Completed 200 OK in 5806ms (Views: 4244.0ms | ActiveRecord: 917.4ms | Allocations: 688440)
+
+
+Started DELETE "/sessions/1" for ::1 at 2021-07-03 18:07:44 +0300
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4mfMGg8vH73ogVBnLQOZpo4MP1ejpQlSWj7PJF9E91B2NhOAzX0LQ7p7c3Q5ccPIYxYoUZF+5hq6b00PLcqgrQ==", "id"=>"1"}
+Redirected to http://localhost:3000/sessions/new
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms | Allocations: 910)
+
+
+Started GET "/sessions/new" for ::1 at 2021-07-03 18:07:44 +0300
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 51.4ms | Allocations: 1029)
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendered layout layouts/application.html.erb (Duration: 157.5ms | Allocations: 30685)
+Completed 200 OK in 167ms (Views: 159.6ms | ActiveRecord: 0.5ms | Allocations: 32923)
+
+
+Started POST "/sessions" for ::1 at 2021-07-03 18:07:53 +0300
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Kv9Z9DqxndEsjb9XM6PEN6iFBYJ/v0pCJoiZDOM9sce+roZu+OOJL353nEQn0Z5ZRZ8ShE1kpQrG2RsnkbPmOg==", "session"=>{"email"=>"foo@foo.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "foo@foo.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:9:in `create'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+Redirected to http://localhost:3000/admin/users
+Completed 302 Found in 451ms (ActiveRecord: 1.3ms | Allocations: 1892)
+
+
+Started GET "/admin/users" for ::1 at 2021-07-03 18:07:53 +0300
+Processing by Admin::UsersController#index as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/users/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users"."id", "users"."name", "users"."email", "users"."admin" FROM "users" ORDER BY "users"."created_at" ASC[0m
+  ↳ app/views/admin/users/index.html.erb:20
+  [1m[35m (81.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/admin/users/index.html.erb:26
+  [1m[35m (5.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/admin/users/index.html.erb:26
+  Rendered admin/users/index.html.erb within layouts/application (Duration: 150.4ms | Allocations: 2715)
+  Rendered layout layouts/application.html.erb (Duration: 304.1ms | Allocations: 31935)
+Completed 200 OK in 314ms (Views: 218.5ms | ActiveRecord: 89.0ms | Allocations: 34139)
+
+
+Started GET "/admin/users/1/edit" for ::1 at 2021-07-03 18:08:25 +0300
+Processing by Admin::UsersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/users_controller.rb:59:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/users/edit.html.erb within layouts/application
+  Rendered admin/users/edit.html.erb within layouts/application (Duration: 62.7ms | Allocations: 3857)
+  Rendered layout layouts/application.html.erb (Duration: 1194.1ms | Allocations: 33061)
+Completed 200 OK in 1236ms (Views: 1194.7ms | ActiveRecord: 0.8ms | Allocations: 35177)
+
+
+Started PATCH "/admin/users/1" for ::1 at 2021-07-03 18:08:33 +0300
+Processing by Admin::UsersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FooFXSoBP5t+v5fRm1OX7bUK8TU4M5qBsCyV+4bzFOIiYNC57X7LkOYmiYMQHJZFVUZQXj+eEBahbKWB7t3fXQ==", "user"=>{"name"=>"Ess", "email"=>"esther.mugo@africascan.com", "admin"=>"true"}, "commit"=>"Submit", "id"=>"1"}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/users_controller.rb:59:in `set_user'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/admin/users_controller.rb:33:in `update'
+  [1m[36mUser Update (165.7ms)[0m  [1m[33mUPDATE "users" SET "updated_at" = $1, "admin" = $2 WHERE "users"."id" = $3[0m  [["updated_at", "2021-07-03 18:08:33.353579"], ["admin", true], ["id", 1]]
+  ↳ app/controllers/admin/users_controller.rb:33:in `update'
+  [1m[36mTRANSACTION (40.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/admin/users_controller.rb:33:in `update'
+Redirected to http://localhost:3000/admin/users/1
+Completed 302 Found in 226ms (ActiveRecord: 207.6ms | Allocations: 4442)
+
+
+Started GET "/admin/users/1" for ::1 at 2021-07-03 18:08:33 +0300
+Processing by Admin::UsersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/users_controller.rb:59:in `set_user'
+  Rendering layout layouts/application.html.erb
+  Rendering admin/users/show.html.erb within layouts/application
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tasks" WHERE "tasks"."user_id" = $1[0m  [["user_id", 1]]
+  ↳ app/views/admin/users/show.html.erb:19
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 1], ["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/admin/users/show.html.erb:46
+  Rendered admin/users/show.html.erb within layouts/application (Duration: 49.6ms | Allocations: 1774)
+  Rendered layout layouts/application.html.erb (Duration: 142.3ms | Allocations: 30946)
+Completed 200 OK in 153ms (Views: 141.7ms | ActiveRecord: 2.3ms | Allocations: 33130)
+
+
+Started GET "/tasks.2" for ::1 at 2021-07-03 18:09:11 +0300
+Processing by TasksController#index as */*
+  [1m[36mUser Load (3.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mLabel Load (3.5ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/tasks/index.html.erb:18
+  [1m[36mTask Load (1.4ms)[0m  [1m[34mSELECT DISTINCT "tasks".* FROM "tasks" WHERE "tasks"."user_id" = $1 LIMIT $2 OFFSET $3[0m  [["user_id", 2], ["LIMIT", 2], ["OFFSET", 0]]
+  ↳ app/views/tasks/index.html.erb:51
+  Rendered tasks/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 2674)
+  Rendered layout layouts/application.html.erb (Duration: 535.7ms | Allocations: 31859)
+Completed 200 OK in 593ms (Views: 532.0ms | ActiveRecord: 8.3ms | Allocations: 33763)
+
+
+Started GET "/tasks/new" for ::1 at 2021-07-03 18:09:19 +0300
+Processing by TasksController#new as HTML
+  [1m[36mUser Load (12.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/helpers/sessions_helper.rb:3:in `current_user'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/new.html.erb within layouts/application
+  [1m[36mLabel Load (0.3ms)[0m  [1m[34mSELECT "labels".* FROM "labels" WHERE "labels"."user_id" = $1[0m  [["user_id", 2]]
+  ↳ app/views/tasks/_form.html.erb:41
+  Rendered tasks/_form.html.erb (Duration: 267.6ms | Allocations: 6214)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 270.3ms | Allocations: 6536)
+  Rendered layout layouts/application.html.erb (Duration: 346.2ms | Allocations: 35693)
+Completed 200 OK in 365ms (Views: 346.5ms | ActiveRecord: 13.1ms | Allocations: 37284)
+
+
