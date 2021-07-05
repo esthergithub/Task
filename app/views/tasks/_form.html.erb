@@ -37,8 +37,10 @@
   </div>
 
   <div class="field">
-    <%= form.label :label %>
-    <%= form.collection_select(:label_ids, current_user.labels.all, :id, :name, {prompt: "Select Labels"}, {multiple: true, class: "custom-select"} ) %>
+    <% Label.all.each do |label| %>
+    <%= form.check_box :label_ids, { multiple: true, checked: @task.labels.find_by(id: label.id).present?, include_hidden: false }, label[:id] %>
+    <label class='badge badge-secondary'><%= label.name %></label>
+  <% end %>
   </div>
 
   <div class="actions">
